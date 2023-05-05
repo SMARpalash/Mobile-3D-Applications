@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>my first x3dom page</title>
+        <script type="text/javascript" src="http://x3dom.org/download/x3dom.js"></script>
+        <style>
+            .contents{
+                width: 700px;
+                border: 5px solid gray;
+                background: lightblue;
+                padding: 30px;
+                margin: 20px;
+            }
+            #modelStyle {
+                border: double;
+                width: 500px;
+                background: lightgray;
+                margin-left: inherit;
+            }
+            .centre {
+                text-align: center;
+            }
+            p.centre {
+                text-align: center;
+                color: red;
+                font-weight: bold;
+            }
+            p {
+                margin-left: 10px;
+
+            }
+            .textBox {
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contents">
+            <h1 class="centre" "textBox">VRML to X3D Conversion Workflow Result</h1>
+            <p class="textBox";>Conversion of VRML to X3D using open source view3d scene</p>
+            <div id="modelstyle">
+                <x3d width="500px" height="400px">
+                    <scene>
+                        <p class="centre">This is Sprite bottle built with cinema 4D exported to VRML2</p>
+                        <inline url="assets/x3d/Sprite.x3d"></inline>
+                    </scene>
+                </x3d>
+
+            </div>
+            <p class="textBox";>Should be able to do same using x3d-edit 4.0</p>
+
+        </div>
+    </body>
+    <link rel='stylesheet' type='text/css' href='http://http://x3dom.org/download/x3dom.css'>
+</html>
