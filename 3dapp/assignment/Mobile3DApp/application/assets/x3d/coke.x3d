@@ -12,12 +12,12 @@
     <NavigationInfo  DEF="headlight" headlight="true" type='"EXAMINE"'/>
     
     <!-- CONTROLS LIGHTS-->
-    <PointLight DEF='Omni001-6' intensity='0.4' location='-1860 1456 -1416' radius='10750'/>
-    <PointLight DEF='Omni002-7' intensity='0.4' location='1940 1456 -1404' radius='10750'/>
-    <PointLight DEF='Omni003-8' intensity='0.4' location='-9.502 1456 1745' radius='10750'/>
-    <PointLight DEF='Omni004-11' intensity='0.4' location='11.65 -1231 -1432' radius='10750'/>
-    <PointLight DEF='Omni005-12' intensity='0.4' location='1945 -1189 1764' radius='10750'/>
-    <PointLight DEF='Omni006-13' intensity='0.4' location='-1931 -1189 1790' radius='10750'/>
+    <PointLight DEF='Omni001-6' intensity='0.1' location='-1860 1456 -1416' radius='10750'/>
+    <PointLight DEF='Omni002-7' intensity='0.1' location='1940 1456 -1404' radius='10750'/>
+    <PointLight DEF='Omni003-8' intensity='0.1' location='-9.502 1456 1745' radius='10750'/>
+    <PointLight DEF='Omni004-11' intensity='0.1' location='11.65 -1231 -1432' radius='10750'/>
+    <PointLight DEF='Omni005-12' intensity='0.1' location='1945 -1189 1764' radius='10750'/>
+    <PointLight DEF='Omni006-13' intensity='0.1' location='-1931 -1189 1790' radius='10750'/>
     
     <!-- CONTROLS CAMERAS -->
     <Viewpoint DEF='CameraFront' description='CameraFront' orientation='0 0 -1 -0.007317' position='0 0 500' fieldOfView='0.5274'/>

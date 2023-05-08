@@ -73,13 +73,11 @@
             <!-- A row for the main 3D image theme — could make this a Jubotron with a carousel -->
             <div class="row">
               <div class="col-sm-12">
-                  <div id="main_3d_image">
-                      <div id="main_text" class="col-xs-12 col-sm-4">
-                        <div id="title_home"></div>
-                        <div id="subTitle_home"></div>
-                        <div id="description_home"></div>
-                      </div> 
-                    </div>
+              <div class="tenor-gif-embed" data-postid="10616401331458766762" data-share-method="host" data-aspect-ratio="1.76596" data-width="100%">
+                <a href="https://tenor.com/view/drinks-gif-10616401331458766762">Drinks GIF</a>from 
+                <a href="https://tenor.com/search/drinks-gifs">Drinks GIFs</a>
+              </div> 
+              <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
               </div>
             </div>  
 
@@ -131,7 +129,31 @@
           </div>  <!-- End home page contents-->
 
           <div id="about" style="display:none;">
-              Insert About Contents
+          <div id="about">
+
+<div id="aboutDescription" class="row" >
+    <div class="col-sm-12">
+        <div class="card bg-light">
+            <div class="card-body">
+                <div id="title_about" class="card-title aboutText"></div>
+                <div id="description_about" class="card-description aboutText"></div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div id="row">
+    <div class="col-sm-12">
+        <div class="card text-white bg-dark text-center">
+            <div class="card-body">
+                <div id="subTitle_about" class="card-subTitle aboutText"></div>
+                <a href="https://github.com/SMARpalash/Mobile-3D-Applications/tree/main/3dapp/assignment/Mobile3DApp"><i class="fab fa-github-square fa-2x" style="font-size: 50px; color: white;"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
           </div>  
 
           <!-- This is the content for X3D models and 3D Image Gallery -->
